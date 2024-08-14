@@ -1,0 +1,136 @@
+:root{
+    --scaleable: 1.98vw; 
+    --longitude: 1.98vw;
+ }
+body{
+    background-color: #459d6a;
+}
+#app{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable) var(--scaleable);
+    grid-template-rows: var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude) var(--longitude);
+    grid-template-areas: 
+    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .'
+    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .'
+    '. enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats  . . . . . . . . . . . . . . . . . .'
+    '. enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats  . . . . . . . . . . . . . . . . . .'
+    '. enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats enemystats . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. . . . . . . . . . . . . . . . . . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. . . . . . . . . . . . . . . . . . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. . . . . . . me me me me me me . . . . . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. . . . . . . me me me me me me . . . . . . . . enemy enemy enemy enemy enemy enemy . . . . . . . .'
+    '. . . . . . . me me me me me me . . . . . . . . . . . . . . . . . . . . . .'
+    '. . . . . . . me me me me me me . . . . . . . . . . . . . . . . . . . . . .'
+    '. . . . . . . me me me me me me . . . . mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats .'
+    '. . . . . . . me me me me me me . . . . mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats .'
+    '. . . . . . . . . . . . . . . . . mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats .'
+    '. . . . . . . . . . . . . . . . . mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats mystats .'
+    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .'
+    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    'actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions actions'
+    ;
+}
+.boxes{
+    margin-left: -1px;
+}
+#enemyStats{
+    grid-area: enemystats;
+}
+#enemy{
+    grid-area: enemy;
+    display: flex;
+    justify-content: center;
+}
+#me{
+    grid-area: me;
+}
+#myStats{
+    grid-area: mystats;
+}
+#actions{
+    background-color: rgb(109, 119, 126);
+    grid-area: actions;
+    display: flex;
+
+}
+#specificActions{
+    border: solid;
+    height: 15.5vw;
+    width: 35vw;
+    font-size: 3vw;
+}
+#broadActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15.5vw;
+    width: 35vw;
+    border: solid;
+    gap: 6vw;
+    button{
+        font-size: 3vw;
+    }
+}
+#pokemonTrainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    height: 15.5vw;
+    width: 70vw;
+    border: solid;
+}
+.grid{
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    grid-template-areas: 
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    '. . . . . . . . '
+    ;
+    width: 35vw;
+
+    button{
+        width: 10vw;
+        height: 6vw;
+        font-size: 2vw;
+    }
+}
+#gridArea1{
+    grid-column: 3/4;
+    grid-row: 3/3;
+}
+#gridArea2{
+    grid-column: 6/7;
+    grid-row: 3/3;
+}
+#gridArea3{
+    grid-column: 3/4;
+    grid-row: 6/6;
+}
+#gridArea4{
+    grid-column: 6/7;
+    grid-row: 6/6;
+}
