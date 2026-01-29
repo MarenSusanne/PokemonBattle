@@ -16,42 +16,42 @@ let model = {
                 lvl: 7,
                 maxHP: 34,
                 attacks: ["Thunder Shock", "Tail Whip", "Growl", "Quick Attack"],
-                img: `pikachu.png" style=width:15vw;`
+                img: `bilder/pikachu.png" style=width:15vw;`
             },
             minun = {
                 name: "Minun",
                 lvl: 27,
                 maxHP: 97,
                 attacks: ["Electro Ball", "Spark", "Encore", "Quick Attack"],
-                img: `minun.png" style=width:8vw;`
+                img: `bilder/minun.png" style=width:8vw;`
             },
             plusle = {
                 name: "Plusle",
                 lvl: 19,
                 maxHP: 83,
                 attacks: ["Thunder Wave", "Spark", "Growl", "Quick Attack"],
-                img: `plusle.png" style=width:8vw;`
+                img: `bilder/plusle.png" style=width:8vw;`
             },
             eevee = {
                 name: "Eevee",
                 lvl: 9,
                 maxHP: 55,
                 attacks: ["Tackle", "Tail Whip", "Growl", "Covet"],
-                img: `eevee.png" style=width:15vw;`
+                img: `bilder/eevee.png" style=width:15vw;`
             },
             mareep = {
                 name: "Mareep",
                 lvl: 10,
                 maxHP: 58,
                 attacks: ["Tackle", "Thunder Shock", "Growl", "Thunder Wave"],
-                img: `mareep.png" style=width:15vw;`
+                img: `bilder/mareep.png" style=width:15vw;`
             },
             deerling = {
                 name: "Deerling",
                 lvl: 16,
                 maxHP: 77,
                 attacks: ["Tackle", "Bullet Seed", "Growl", "Sand Attack"],
-                img: `deerling.png" style=width:15vw;`
+                img: `bilder/deerling.png" style=width:15vw;`
             },
         ],
         enemyTrainers: [
@@ -260,3 +260,4 @@ let model = {
         ]
     },
 }
+
